@@ -1,0 +1,5 @@
+#positive numbers in a range
+num = [90,-37,6,74,-8,49]
+print("Original numbers in the list: ",num)
+new_num = list(filter(lambda x: x >0, num))
+print("Positive numbers in the list: ",new_num)
